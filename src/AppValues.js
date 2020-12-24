@@ -177,11 +177,33 @@ export const BORDER_1PX = 0.5;
 
 // FONT SIZE
 
+// export const SIZE_EDIT_TEXT =
+//   Platform.OS === 'android' ? normalize(15) : normalize(17);
+
+// export const SIZE_TEXT_PRIMARY =
+//   Platform.OS === 'android' ? normalize(12) : normalize(13);
+
+// export const SIZE_TEXT_LABEL_SMALLER =
+//   Platform.OS === 'android' ? normalize(10) : normalize(11);
+
+// export const SIZE_TEXT_LABEL =
+//   Platform.OS === 'android' ? normalize(12) : normalize(13);
+
+// export const SIZE_TEXT_SMALLER =
+//   Platform.OS === 'android' ? normalize(14) : normalize(15);
+
+// export const SIZE_TEXT_SMALL = normalize(15);
+
+// export const SIZE_TEXT_MEDIUM = normalize(17);
+
+// export const SIZE_TEXT_LARGE =
+//   Platform.OS === 'android' ? normalize(22) : normalize(25);
+
 export const SIZE_EDIT_TEXT =
-  Platform.OS === 'android' ? normalize(15) : normalize(17);
+  Platform.OS === 'android' ? normalize(12) : normalize(13);
 
 export const SIZE_TEXT_PRIMARY =
-  Platform.OS === 'android' ? normalize(12) : normalize(13);
+  Platform.OS === 'android' ? normalize(12) : normalize(11);
 
 export const SIZE_TEXT_LABEL_SMALLER =
   Platform.OS === 'android' ? normalize(10) : normalize(11);
@@ -198,3 +220,4 @@ export const SIZE_TEXT_MEDIUM = normalize(17);
 
 export const SIZE_TEXT_LARGE =
   Platform.OS === 'android' ? normalize(22) : normalize(25);
+

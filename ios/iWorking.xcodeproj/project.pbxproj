@@ -69,6 +69,7 @@
 		5250DF33258F58E600F2C4EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		528330A1258F5E9E002AE0D2 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		528330A2258F5E9E002AE0D2 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		52E3FBE12593ADEE0053F7BB /* iWorking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = iWorking.entitlements; path = iWorking/iWorking.entitlements; sourceTree = "<group>"; };
 		6CD7B6705468F830C0D402D2 /* Pods-iWorking-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWorking-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-iWorking-tvOSTests/Pods-iWorking-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		7FD8E6C73DE8457FBBBB6242 /* icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icomoon.ttf; path = ../assets/fonts/icomoon.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = iWorking/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 		13B07FAE1A68108700A75B9A /* iWorking */ = {
 			isa = PBXGroup;
 			children = (
+				52E3FBE12593ADEE0053F7BB /* iWorking.entitlements */,
 				528330A2258F5E9E002AE0D2 /* assets */,
 				528330A1258F5E9E002AE0D2 /* main.jsbundle */,
 				5250DF33258F58E600F2C4EB /* GoogleService-Info.plist */,
@@ -775,7 +777,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CODE_SIGN_ENTITLEMENTS = iWorking/iWorking.entitlements;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 22KQLF6YRU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iWorking/Info.plist;
@@ -800,7 +803,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CODE_SIGN_ENTITLEMENTS = iWorking/iWorking.entitlements;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 22KQLF6YRU;
 				INFOPLIST_FILE = iWorking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
