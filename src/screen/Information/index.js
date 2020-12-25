@@ -136,19 +136,19 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   viewText: {
-    fontSize: AppValues.normalize(15),
+    fontSize: AppValues.normalize(11),
   },
   viewTextTittle: {
     fontSize: AppValues.normalize(15),
     color: AppValues.primaryColor,
   },
   viewTextColor: {
-    fontSize: AppValues.normalize(15),
+    fontSize: AppValues.normalize(11),
     color: AppValues.primaryColor,
   },
   viewTextInfo: {
     marginTop: Screen.height(1),
-    fontSize: AppValues.normalize(15),
+    fontSize: AppValues.normalize(11),
     flex: 1,
   },
   itemContainer: {

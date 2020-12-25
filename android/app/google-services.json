@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "521220104873-37opg5sajds5ajpqtii20hl9u18j2i0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iworking",
+            "certificate_hash": "bde7e73bdd6ce9a9f337c8d821c58c53240f7eaa"
+          }
+        },
+        {
           "client_id": "521220104873-t178n3nlvc6uqkfie6rtjk7hngrmpc6f.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -38,6 +46,14 @@
             {
               "client_id": "521220104873-kgb4usgbt0fhj2m3mh09u2p2f9n9iiut.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "521220104873-fdd8h18sk7lq4nuru59aj6mlhflaveho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cleanhouse",
+                "app_store_id": "1486828972"
+              }
             }
           ]
         }
@@ -75,6 +91,14 @@
             {
               "client_id": "521220104873-kgb4usgbt0fhj2m3mh09u2p2f9n9iiut.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "521220104873-fdd8h18sk7lq4nuru59aj6mlhflaveho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cleanhouse",
+                "app_store_id": "1486828972"
+              }
             }
           ]
         }
